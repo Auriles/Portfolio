@@ -6,10 +6,10 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
-    <br />
-    <SectionTitle>Technologies</SectionTitle>
+    {/* <br /><br /><br /> */}
+    <SectionTitle style={{marginTop: '6rem'}}>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technilogies in the web development world. From Back-End to Design.
+      Je travaille avec de nombreuses technologies dans le domaine du développement web, du Back-End au Design.
     </SectionText>
     <List>
       {/* Front-End */}
@@ -18,7 +18,7 @@ const Technologies = () =>  (
           <ListContainer>
             <ListTitle>Front-End</ListTitle>
             <ListParagraph>
-              Experience with <br />
+              Experiences avec <br />
               React.js
             </ListParagraph>
           </ListContainer>
@@ -27,21 +27,21 @@ const Technologies = () =>  (
       <ListItem>
         <DiFirebase size="3rem" />
           <ListContainer>
-            <ListTitle>Front-End</ListTitle>
+            <ListTitle>Back-End</ListTitle>
             <ListParagraph>
-              Experience with <br />
-              Node.js and Databases
+              Experiences avec <br />
+              Node.js et Bases de données
             </ListParagraph>
           </ListContainer>
       </ListItem>
-      {/* -End */}
+      {/* UX/UI*/}
       <ListItem>
         <DiZend size="3rem" />
           <ListContainer>
             <ListTitle>UI/UX</ListTitle>
             <ListParagraph>
-              Experience with <br />
-              Tools like Figma or AdobeXD
+              Experiences avec <br />
+              Figma / Suite Adobe
             </ListParagraph>
           </ListContainer>
       </ListItem>

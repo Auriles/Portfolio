@@ -7,18 +7,19 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Projets</SectionTitle>
     {/* Permet de faire un mapping depuis le fichier constants qui référence tous nos projets */}
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, source, visit }) => (
         <BlogCard key={id}>
           <Img src={image} />
-          <TitleContent>
+          <TitleContent> <br />
             <HeaderThree title>{title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo>{description}</CardInfo>
           <div>
+            <br />
             <TitleContent>Stack</TitleContent>
             {/* Permet de montrer les technologies utilisées pour chaque projet */}
             <TagList>
@@ -30,7 +31,7 @@ const Projects = () => (
           {/*    */}
           <UtilityList>
             <ExternalLinks href={visit}>Code</ExternalLinks>
-            <ExternalLinks href={source}>Source</ExternalLinks>
+            <ExternalLinks href={source}>Site</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}

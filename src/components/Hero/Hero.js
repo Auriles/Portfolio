@@ -8,13 +8,14 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to Just Auri<br />
-        Personal Website
+        Bienvenue sur le site<br />
+        de Just Auri
       </SectionTitle>
-      <SectionText>
-        Une petite description de moi
+      <SectionText style={{}}>
+        Hello ! Je m'appelle Auriles El Haddad, j'ai 26 ans et suis fraîchement sorti d'école ! <br />
+        En possession d'un double diplôme, l'un en informatique et l'autre en marketing/communication, je suis désormais à la recherche d'opportunités professionnelles afin de développer davantage mes compétences techniques et les mettre à votre disposition !
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://google.com'}>En savoir plus</Button>
     </LeftSection>
   </Section>
 );

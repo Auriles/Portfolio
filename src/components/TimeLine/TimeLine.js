@@ -44,8 +44,9 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+
       <SectionText>
-        ...
+        Ma formation professionnelle
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

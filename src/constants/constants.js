@@ -37,10 +37,19 @@ export const projects = [
   },
 ];
 
+export const TimeLineDataPro = [
+  { year: 2017, text: 'Alternance / SAB - Analyste Developpeur', },
+  { year: 2018, text: 'Alternance / SAB - Analyste Developpeur', },
+  { year: 2019, text: 'Alternance / Paris Ynov Campus - Assistant Technique et Pédagogique', },
+  { year: 2020, text: 'Lancement de ma chaîne Twitch', },
+  { year: 2021, text: 'Freelance Developpeur', },
+];
+
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2014, text: 'Formation Bachelor 1 / Paris Ynov Campus - Ingésup', },
+  { year: 2015, text: 'Formation Bachelor 2 / Paris Ynov Campus - Ynov Informatique', },
+  { year: 2016, text: 'Formation Bachelor 3 / Paris Ynov Campus - Ynov Informatique', },
+  { year: 2017, text: 'Formation Mastère 1 / Paris Ynov Campus - Ynov Informatique', },
+  { year: 2018, text: 'Formation Mastère 2 / Paris Ynov Campus - Ynov Informatique', },
+  { year: 2019, text: 'Formation Mastère 2 / Paris Ynov Campus - Ynov Marketing', },
 ];
