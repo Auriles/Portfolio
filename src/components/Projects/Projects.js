@@ -1,13 +1,16 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle, SectionText } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Projets</SectionTitle>
+    <SectionTitle main>Projets_</SectionTitle>
+    <SectionText>
+      Voici quelques projets que j'ai pu réaliser dans le cadre du développement web !
+    </SectionText>
     {/* Permet de faire un mapping depuis le fichier constants qui référence tous nos projets */}
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, source, visit }) => (
@@ -17,7 +20,7 @@ const Projects = () => (
             <HeaderThree title>{title}</HeaderThree>
             <Hr />
           </TitleContent>
-          <CardInfo>{description}</CardInfo>
+          <CardInfo style={{textAlign: 'center'}}>{description}</CardInfo>
           <div>
             <br />
             <TitleContent>Stack</TitleContent>

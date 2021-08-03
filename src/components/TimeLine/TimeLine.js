@@ -110,7 +110,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
+      <SectionDivider style={{marginTop: '5rem'}}/>
     </Section>
   );
 };
