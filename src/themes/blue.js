@@ -1,8 +1,8 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Audiowide, sans-serif",
-        main: "Audiowide, sans-serif"
+        title: "Audiowide, cursive",
+        main: "Poppins, sans-serif"
     },
     // Colors for layout
     colors: {

@@ -23,11 +23,11 @@ const Projects = () => (
           <CardInfo style={{textAlign: 'center'}}>{description}</CardInfo>
           <div>
             <br />
-            <TitleContent>Stack</TitleContent>
+            <TitleContent style={{fontFamily: 'Audiowide, cursive'}}>Stack</TitleContent>
             {/* Permet de montrer les technologies utilisées pour chaque projet */}
             <TagList>
               {tags.map((tag, i) => (
-                <Tag key={i}>{tag}</Tag>
+                <Tag style={{ fontFamily: 'Audiowide, cursive' }} key={i}>{tag}</Tag>
               ))}
             </TagList>
           </div>

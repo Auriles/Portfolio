@@ -19,23 +19,23 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}>
-          <GiWolfHowl size="3rem" /> <Span style={{ marginLeft: '1rem' }}>Just Auri</Span>
+          <GiWolfHowl size="3rem" /> <Span style={{ marginLeft: '1rem', fontFamily: 'Audiowide, cursive' }}>Just Auri</Span>
         </a>
       </Link>
     </Div1>
     {/* Navbar */}
     <Div2>
-      <li>
+      <li style={{ fontFamily: 'Audiowide, cursive' }}>
         <Link href="#projects">
           <NavLink>Projets</NavLink>
         </Link>
       </li>
-      <li>
+      <li style={{ fontFamily: 'Audiowide, cursive' }}>
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
-      <li>
+      <li style={{ fontFamily: 'Audiowide, cursive' }}>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
