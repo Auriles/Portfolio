@@ -5,9 +5,8 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider />
-    {/* <br /><br /><br /> */}
-    <SectionTitle style={{marginTop: '6rem'}}>Technologies_</SectionTitle>
+    <SectionDivider style={{marginTop: '3rem'}}/>
+    <SectionTitle style={{marginTop: '3rem'}}>Technologies_</SectionTitle>
     <SectionText>
       Je travaille avec de nombreuses technologies dans le domaine du développement web, du Back-End au Design.
     </SectionText>

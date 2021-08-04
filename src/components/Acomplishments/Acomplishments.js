@@ -12,7 +12,7 @@ const data = [
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle style={{ marginTop: '4rem' }}>Réseaux Sociaux_</SectionTitle>
+    <SectionTitle style={{ marginTop: '3rem' }}>Réseaux Sociaux_</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>

@@ -17,7 +17,7 @@ const Projects = () => (
         <BlogCard key={id}>
           <Img src={image} />
           <TitleContent> <br />
-            <HeaderThree title>{title}</HeaderThree>
+            <HeaderThree>{title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo style={{textAlign: 'center'}}>{description}</CardInfo>
