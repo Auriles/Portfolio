@@ -4,7 +4,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 520, text: 'Followers sur Twitch'},
+  { number: 530, text: 'Followers sur Twitch'},
   { number: 1400, text: 'Abonnés sur Youtube', },
   { number: 415, text: 'Followers sur Twitter', },
   { number: 505, text: 'Followers sur Instagram', }

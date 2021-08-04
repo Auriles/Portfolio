@@ -56,18 +56,14 @@ export const projects = [
 ];
 
 export const TimeLineDataPro = [
-  { year: 2017, text: 'Alternance / SAB - Analyste Developpeur', },
-  { year: 2018, text: 'Alternance / SAB - Analyste Developpeur', },
+  { year: 2017, text: 'Alternance durant 2 ans / SAB - Analyste Developpeur', },
   { year: 2019, text: 'Alternance / Paris Ynov Campus - Assistant Technique et Pédagogique', },
   { year: 2020, text: 'Lancement de ma chaîne Twitch', },
   { year: 2021, text: 'Freelance Developpeur', },
 ];
 
 export const TimeLineData = [
-  { year: 2014, text: 'Formation Bachelor 1 / Paris Ynov Campus - Ingésup', },
-  { year: 2015, text: 'Formation Bachelor 2 / Paris Ynov Campus - Ynov Informatique', },
-  { year: 2016, text: 'Formation Bachelor 3 / Paris Ynov Campus - Ynov Informatique', },
-  { year: 2017, text: 'Formation Mastère 1 / Paris Ynov Campus - Ynov Informatique', },
-  { year: 2018, text: 'Formation Mastère 2 / Paris Ynov Campus - Ynov Informatique', },
+  { year: 2014, text: 'Formation Bachelor durant 3 ans / Paris Ynov Campus - Ingésup' },
+  { year: 2017, text: 'Formation Mastère durant 2 ans / Paris Ynov Campus - Ynov Informatique', },
   { year: 2019, text: 'Formation Mastère 2 / Paris Ynov Campus - Ynov Marketing', },
 ];

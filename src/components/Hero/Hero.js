@@ -15,7 +15,7 @@ const Hero = () => (
         Hello ! Je m'appelle Auriles El Haddad, j'ai 26 ans et suis fraîchement sorti d'école ! <br />
         En possession d'un double diplôme, l'un en informatique et l'autre en marketing/communication, je suis désormais à la recherche d'opportunités professionnelles afin de développer davantage mes compétences techniques et les mettre à votre disposition !
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>En savoir plus</Button>
+      <Button onClick={() => window.location = '#projects'}>En savoir plus</Button>
     </LeftSection>
   </Section>
 );
