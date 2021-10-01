@@ -19,7 +19,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}>
-          <GiWolfHowl size="3rem" /> <Span style={{ marginLeft: '1rem', fontFamily: 'Audiowide, cursive' }}>Just Auri</Span>
+          <GiWolfHowl size="3rem" /> <Span style={{ marginLeft: '1rem', fontFamily: 'Audiowide, cursive' }}>Just Auri Agency</Span>
         </a>
       </Link>
     </Div1>

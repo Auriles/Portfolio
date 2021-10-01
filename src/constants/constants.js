@@ -1,40 +1,15 @@
-export const projects = [
+export const clientProjects = [
   {
-    title: 'Dragon Ball Legends Project',
-    description: "Août 2021_", // Date
-    image: '/images/10.png',
-    tags: ['React', 'Next', 'Scss'],
-    source: '', // Site
-    visit: '', // Github
+    title: 'OOCANDOO',
+    description: "OOCANDOO, votre partenaire dans la transformation retail : stratégie et parcours client connectés, intégration phygitale et solutions intéractives.", // Description
+    image: '/images/oocandoo.jpg',
+    tags: ['React', 'Scss'],
+    source: 'http://www.preprod.auriles.com', // Site
     id: 0
-  },
-  {
-    title: 'Genshin Impact Project',
-    description: "Août 2021_", // Date
-    image: '/images/9.png',
-    tags: ['React', 'Next', 'Scss'],
-    source: '', // Site
-    visit: '', // Github
-    id: 1
-  },
-  {
-    title: 'Headphones Project',
-    description: "Août 2021_", // Date
-    image: '/images/8.png',
-    tags: ['React', 'Next', 'Scss'],
-    source: '', // Site
-    visit: '', // Github
-    id: 2
-  },
-  {
-    title: 'Boilerplate Project',
-    description: "Août 2021_", // Date
-    image: '/images/7.png',
-    tags: ['React', 'Next', 'Scss'],
-    source: '', // Site
-    visit: 'https://github.com/Auriles/project-boilerplate', // Github
-    id: 3
-  },
+  }
+];
+
+export const projects = [
   {
     title: 'Just Auri Website',
     description: "Août 2021_", // Date
@@ -42,7 +17,7 @@ export const projects = [
     tags: ['React', 'Next', 'Style Component'],
     source: 'https://auriles.com', // Site
     visit: 'https://github.com/Auriles/Portfolio', // Github
-    id: 4
+    id: 0
   },
   {
     title: 'Netflix Clone',
@@ -51,7 +26,7 @@ export const projects = [
     tags: ['JS', 'React', 'SCSS', 'Firebase'],
     source: 'https://netflix-clone-d5ac8.web.app/', // Site
     visit: 'https://github.com/Auriles/netflix-clone', // Github
-    id: 5
+    id: 1
   },
   {
     title: 'Mon CV',
@@ -60,7 +35,7 @@ export const projects = [
     tags: ['HTML 5', 'CSS 3', 'PHP', 'JS'],
     source: 'https://auriles.com/myCv/', // Site
     visit: 'https://github.com/Auriles/CV', // Github
-    id: 6
+    id: 2
   },
   {
     title: 'Snake Game',
@@ -69,7 +44,7 @@ export const projects = [
     tags: ['HTML 5', 'JS'],
     source: 'https://auriles.com/mySnake/', // Site
     visit: 'https://github.com/Auriles/Snake', // Github
-    id: 7
+    id: 3
   },
   {
     title: 'Top 5',
@@ -78,7 +53,7 @@ export const projects = [
     tags: ['HTML 5', 'CSS 3', 'JS', 'jQuery'],
     source: 'https://auriles.com/myTop5/', // Site
     visit: 'https://github.com/Auriles/Top-5', // Github
-    id: 8
+    id: 4
   },
   {
     title: 'Travel Agency',
@@ -87,7 +62,7 @@ export const projects = [
     tags: ['HTML 5', 'CSS 3'],
     source: 'https://auriles.com/myAgency/', // Site
     visit: 'https://github.com/Auriles/My-Agency', // Github
-    id: 9
+    id: 5
   },
 ];
 

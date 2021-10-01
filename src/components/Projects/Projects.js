@@ -7,9 +7,9 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Projets_</SectionTitle>
+    <SectionTitle main>Projets Personnels_</SectionTitle>
     <SectionText>
-      Voici quelques projets que j'ai pu réaliser dans le cadre du développement web !
+      Voici quelques projets personnels que j'ai pu réaliser dans le cadre du développement web !
     </SectionText>
     {/* Permet de faire un mapping depuis le fichier constants qui référence tous nos projets */}
     <GridContainer>
