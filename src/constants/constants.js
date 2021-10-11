@@ -4,7 +4,7 @@ export const clientProjects = [
     description: "OOCANDOO, votre partenaire dans la transformation retail : stratégie et parcours client connectés, intégration phygitale et solutions intéractives.", // Description
     image: '/images/oocandoo.jpg',
     tags: ['React', 'Scss'],
-    source: 'http://www.preprod.auriles.com', // Site
+    source: 'https://www.oocandoo.com',
     id: 0
   }
 ];
